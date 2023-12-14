@@ -3,11 +3,13 @@
   "description": "Speedtest.net client",
   "author": "Han de Boer",
   "version": "2.3.0",
-  "bin": "bin/index.js",
+  "bin": {
+    "speedtest-net": "bin/index.js"
+  },
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ddsol/speedtest.net.git"
+    "url": "git+https://github.com/ryanmccartney/speedtest.net.git"
   },
   "dependencies": {
     "chalk": "^2.4.1",
